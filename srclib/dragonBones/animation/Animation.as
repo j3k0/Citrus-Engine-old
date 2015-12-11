@@ -112,7 +112,7 @@
 			animationName:String, 
 			fadeInTime:Number = -1, 
 			duration:Number = -1, 
-			playTimes:Number = NaN, 
+			playTimes:Number = Number.NaN, 
 			layer:int = 0, 
 			group:String = null,
 			fadeOutMode:String = SAME_LAYER_AND_GROUP,

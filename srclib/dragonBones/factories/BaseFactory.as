@@ -168,7 +168,7 @@ package dragonBones.factories
 		 * @param The registration pivotY position.
 		 * @return An Object.
 		 */
-		public function getTextureDisplay(textureName:String, textureAtlasName:String = null, pivotX:Number = NaN, pivotY:Number = NaN):Object
+		public function getTextureDisplay(textureName:String, textureAtlasName:String = null, pivotX:Number = Number.NaN, pivotY:Number = Number.NaN):Object
 		{
 			var targetTextureAtlas:Object;
 			if(textureAtlasName)

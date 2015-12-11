@@ -7,7 +7,6 @@ package citrus.core.starling {
 	import citrus.datastructures.PoolObject;
 	import citrus.input.Input;
 	import citrus.system.Entity;
-	import citrus.system.components.ViewComponent;
 	import citrus.view.ACitrusView;
 	import citrus.view.starlingview.StarlingCamera;
 	import citrus.view.starlingview.StarlingView;

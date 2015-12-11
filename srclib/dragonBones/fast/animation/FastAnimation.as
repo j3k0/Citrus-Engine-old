@@ -51,7 +51,7 @@ package dragonBones.fast.animation
 			animationState = null;
 		}
 		
-		public function gotoAndPlay( animationName:String, fadeInTime:Number = -1, duration:Number = -1, playTimes:Number = NaN):FastAnimationState
+		public function gotoAndPlay( animationName:String, fadeInTime:Number = -1, duration:Number = -1, playTimes:Number = Number.NaN):FastAnimationState
 		{
 			if (!_animationDataList)
 			{
