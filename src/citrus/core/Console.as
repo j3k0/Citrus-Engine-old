@@ -51,7 +51,7 @@ package citrus.core {
 		private var _numCommandsInHistory:Number;
 		private var _commandDelegates:Dictionary;
 		private var _shared:SharedObject;
-		private var _enabled:Boolean = true;
+		private var _enabled:Boolean = false;
 		
 		//events
 		private var _onShowConsole:Signal;
