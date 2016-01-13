@@ -158,11 +158,14 @@
 			<arg line="-include-sources ../src/citrus/view/spriteview" />
 			
 			<arg line="-include-sources ../srclib/dragonBones/animation" />
+			<arg line="-include-sources ../srclib/dragonBones/cache" />
 			<arg line="-include-sources ../srclib/dragonBones/core" />
+			<arg line="-include-sources ../srclib/dragonBones/display/NativeFastSlot.as" />
 			<arg line="-include-sources ../srclib/dragonBones/display/NativeSlot.as" />
 			<arg line="-include-sources ../srclib/dragonBones/events" />
-			<arg line="-include-sources ../srclib/dragonBones/factorys/BaseFactory.as" />
-			<arg line="-include-sources ../srclib/dragonBones/factorys/NativeFactory.as" />
+			<arg line="-include-sources ../srclib/dragonBones/factories/BaseFactory.as" />
+			<arg line="-include-sources ../srclib/dragonBones/factories/NativeFactory.as" />
+			<arg line="-include-sources ../srclib/dragonBones/fast" />
 			<arg line="-include-sources ../srclib/dragonBones/objects" />
 			<arg line="-include-sources ../srclib/dragonBones/textures/ITextureAtlas.as" />
 			<arg line="-include-sources ../srclib/dragonBones/textures/NativeTextureAtlas.as" />
