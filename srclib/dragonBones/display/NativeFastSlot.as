@@ -1,11 +1,11 @@
-package dragonBones.display
-{
+package dragonBones.display {
+
+	import dragonBones.core.dragonBones_internal;
+	import dragonBones.fast.FastSlot;
+
 	import flash.display.BlendMode;
 	import flash.display.DisplayObject;
 	import flash.display.DisplayObjectContainer;
-	
-	import dragonBones.core.dragonBones_internal;
-	import dragonBones.fast.FastSlot;
 	
 	use namespace dragonBones_internal;
 	

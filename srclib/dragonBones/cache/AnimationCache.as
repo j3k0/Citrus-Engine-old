@@ -1,10 +1,9 @@
-package dragonBones.cache
-{
+package dragonBones.cache {
+
 	import dragonBones.objects.AnimationData;
 	import dragonBones.objects.ArmatureData;
 	import dragonBones.objects.BoneData;
 	import dragonBones.objects.SlotData;
-	import dragonBones.objects.SlotTimeline;
 	import dragonBones.objects.TransformTimeline;
 
 	public class AnimationCache

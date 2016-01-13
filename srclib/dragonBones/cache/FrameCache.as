@@ -1,8 +1,8 @@
-package dragonBones.cache
-{
-	import flash.geom.Matrix;
-	
+package dragonBones.cache {
+
 	import dragonBones.objects.DBTransform;
+
+	import flash.geom.Matrix;
 
 	public class FrameCache
 	{

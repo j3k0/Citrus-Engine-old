@@ -1,8 +1,10 @@
 package dragonBones.objects 
 {
+
 	import dragonBones.core.dragonBones_internal;
 	import dragonBones.utils.ConstValues;
 	import dragonBones.utils.DBDataUtil;
+
 	import flash.geom.ColorTransform;
 	import flash.geom.Point;
 	import flash.utils.Dictionary;

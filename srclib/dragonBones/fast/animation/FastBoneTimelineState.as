@@ -1,16 +1,16 @@
-package dragonBones.fast.animation
-{
-	import dragonBones.objects.CurveData;
-	import flash.geom.Point;
-	
+package dragonBones.fast.animation {
+
 	import dragonBones.core.dragonBones_internal;
 	import dragonBones.fast.FastBone;
+	import dragonBones.objects.CurveData;
 	import dragonBones.objects.DBTransform;
 	import dragonBones.objects.Frame;
 	import dragonBones.objects.TransformFrame;
 	import dragonBones.objects.TransformTimeline;
 	import dragonBones.utils.MathUtil;
 	import dragonBones.utils.TransformUtil;
+
+	import flash.geom.Point;
 
 	use namespace dragonBones_internal;
 	

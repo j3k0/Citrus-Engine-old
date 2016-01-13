@@ -1,19 +1,18 @@
-﻿package dragonBones.factories
-{
+package dragonBones.factories {
+
 	import dragonBones.Armature;
-	import dragonBones.display.NativeFastSlot;
-	import dragonBones.fast.FastArmature;
-	import dragonBones.fast.FastSlot;
 	import dragonBones.Slot;
 	import dragonBones.core.dragonBones_internal;
+	import dragonBones.display.NativeFastSlot;
 	import dragonBones.display.NativeSlot;
+	import dragonBones.fast.FastArmature;
+	import dragonBones.fast.FastSlot;
 	import dragonBones.textures.ITextureAtlas;
 	import dragonBones.textures.NativeTextureAtlas;
-	
+
 	import flash.display.MovieClip;
 	import flash.display.Shape;
 	import flash.display.Sprite;
-	import flash.geom.Matrix;
 	import flash.geom.Rectangle;
 	
 	use namespace dragonBones_internal;

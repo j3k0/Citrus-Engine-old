@@ -1,11 +1,6 @@
-package dragonBones.objects
-{
-	import flash.display.Bitmap;
+package dragonBones.objects {
+
 	import flash.display.Loader;
-	import flash.display.MovieClip;
-	import flash.display.Sprite;
-	import flash.events.Event;
-	import flash.events.EventDispatcher;
 	import flash.system.ApplicationDomain;
 	import flash.system.LoaderContext;
 	import flash.utils.ByteArray;

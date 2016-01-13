@@ -1,6 +1,4 @@
-package dragonBones.objects
-{
-	import flash.geom.Point;
+package dragonBones.objects {
 	
 	public final class SlotTimeline extends Timeline
 	{

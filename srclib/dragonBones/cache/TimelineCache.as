@@ -1,5 +1,5 @@
-package dragonBones.cache
-{
+package dragonBones.cache {
+
 	import dragonBones.core.ICacheUser;
 
 	public class TimelineCache

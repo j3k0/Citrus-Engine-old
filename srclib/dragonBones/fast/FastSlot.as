@@ -1,9 +1,5 @@
-package dragonBones.fast
-{
-	import flash.errors.IllegalOperationError;
-	import flash.geom.ColorTransform;
-	import flash.geom.Matrix;
-	
+package dragonBones.fast {
+
 	import dragonBones.cache.SlotFrameCache;
 	import dragonBones.core.IArmature;
 	import dragonBones.core.ISlotCacheGenerator;
@@ -15,6 +11,10 @@ package dragonBones.fast
 	import dragonBones.objects.SlotFrame;
 	import dragonBones.utils.ColorTransformUtil;
 	import dragonBones.utils.TransformUtil;
+
+	import flash.errors.IllegalOperationError;
+	import flash.geom.ColorTransform;
+	import flash.geom.Matrix;
 
 	use namespace dragonBones_internal;
 

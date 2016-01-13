@@ -1,12 +1,12 @@
-package dragonBones.fast
-{
-	import flash.geom.Matrix;
-	
+package dragonBones.fast {
+
 	import dragonBones.cache.FrameCache;
 	import dragonBones.core.DBObject;
 	import dragonBones.core.dragonBones_internal;
 	import dragonBones.objects.DBTransform;
 	import dragonBones.utils.TransformUtil;
+
+	import flash.geom.Matrix;
 	
 	use namespace dragonBones_internal;
 

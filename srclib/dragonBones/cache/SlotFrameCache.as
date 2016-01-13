@@ -1,5 +1,5 @@
-package dragonBones.cache
-{
+package dragonBones.cache {
+
 	import flash.geom.ColorTransform;
 
 	public class SlotFrameCache extends FrameCache

@@ -1,6 +1,6 @@
 package dragonBones.objects 
 {
-	import flash.geom.Point;
+
 	import flash.utils.Dictionary;
 
 	public class DragonBonesData

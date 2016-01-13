@@ -1,7 +1,6 @@
-package dragonBones.objects
-{
+package dragonBones.objects {
+
 	import flash.display.Bitmap;
-	import flash.display.BitmapData;
 	import flash.display.Loader;
 	import flash.display.MovieClip;
 	import flash.display.Sprite;

@@ -1,9 +1,9 @@
-package dragonBones.core
-{
+package dragonBones.core {
+
+	import dragonBones.objects.DBTransform;
+
 	import flash.geom.ColorTransform;
 	import flash.geom.Matrix;
-	
-	import dragonBones.objects.DBTransform;
 
 	public interface ISlotCacheGenerator extends ICacheUser
 	{

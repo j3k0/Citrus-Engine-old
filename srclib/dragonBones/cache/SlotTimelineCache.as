@@ -1,5 +1,5 @@
-package dragonBones.cache
-{
+package dragonBones.cache {
+
 	import dragonBones.core.ISlotCacheGenerator;
 	import dragonBones.utils.ColorTransformUtil;
 

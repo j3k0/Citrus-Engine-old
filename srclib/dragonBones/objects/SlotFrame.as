@@ -1,7 +1,6 @@
-﻿package dragonBones.objects
-{
+package dragonBones.objects {
+
 	import flash.geom.ColorTransform;
-	import flash.geom.Point;
 	
 	/** @private */
 	final public class SlotFrame extends Frame

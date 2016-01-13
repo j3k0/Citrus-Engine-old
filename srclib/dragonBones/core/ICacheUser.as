@@ -1,5 +1,5 @@
-package dragonBones.core
-{
+package dragonBones.core {
+
 	import dragonBones.cache.FrameCache;
 
 	public interface ICacheUser

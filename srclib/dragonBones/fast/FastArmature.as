@@ -1,20 +1,19 @@
-package dragonBones.fast
-{
-	import flash.events.Event;
-	import flash.events.EventDispatcher;
-	
+package dragonBones.fast {
+
 	import dragonBones.cache.AnimationCacheManager;
 	import dragonBones.cache.SlotFrameCache;
 	import dragonBones.core.IArmature;
 	import dragonBones.core.ICacheableArmature;
 	import dragonBones.core.dragonBones_internal;
-	import dragonBones.events.AnimationEvent;
 	import dragonBones.events.FrameEvent;
 	import dragonBones.fast.animation.FastAnimation;
 	import dragonBones.fast.animation.FastAnimationState;
 	import dragonBones.objects.ArmatureData;
 	import dragonBones.objects.DragonBonesData;
 	import dragonBones.objects.Frame;
+
+	import flash.events.Event;
+	import flash.events.EventDispatcher;
 
 	use namespace dragonBones_internal;
 	

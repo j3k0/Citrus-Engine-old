@@ -1,16 +1,16 @@
-package dragonBones.fast.animation
-{
-	import dragonBones.objects.CurveData;
-	import flash.geom.ColorTransform;
-	
+package dragonBones.fast.animation {
+
 	import dragonBones.core.dragonBones_internal;
 	import dragonBones.fast.FastArmature;
 	import dragonBones.fast.FastSlot;
+	import dragonBones.objects.CurveData;
 	import dragonBones.objects.Frame;
 	import dragonBones.objects.SlotFrame;
 	import dragonBones.objects.SlotTimeline;
 	import dragonBones.utils.ColorTransformUtil;
 	import dragonBones.utils.MathUtil;
+
+	import flash.geom.ColorTransform;
 	
 	use namespace dragonBones_internal;
 	

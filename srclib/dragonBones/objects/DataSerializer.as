@@ -1,8 +1,7 @@
-package dragonBones.objects
-{
+package dragonBones.objects {
+
 	import dragonBones.utils.BytesType;
-	
-	import flash.display.Loader;
+
 	import flash.events.EventDispatcher;
 	import flash.utils.ByteArray;
 

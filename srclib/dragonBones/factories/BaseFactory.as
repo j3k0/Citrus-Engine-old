@@ -1,12 +1,5 @@
-package dragonBones.factories
-{
-	import flash.errors.IllegalOperationError;
-	import flash.events.Event;
-	import flash.events.EventDispatcher;
-	import flash.geom.Matrix;
-	import flash.utils.ByteArray;
-	import flash.utils.Dictionary;
-	
+package dragonBones.factories {
+
 	import dragonBones.Armature;
 	import dragonBones.Bone;
 	import dragonBones.Slot;
@@ -24,6 +17,13 @@ package dragonBones.factories
 	import dragonBones.objects.SkinData;
 	import dragonBones.objects.SlotData;
 	import dragonBones.textures.ITextureAtlas;
+
+	import flash.errors.IllegalOperationError;
+	import flash.events.Event;
+	import flash.events.EventDispatcher;
+	import flash.geom.Matrix;
+	import flash.utils.ByteArray;
+	import flash.utils.Dictionary;
 
 	use namespace dragonBones_internal;
 	

@@ -1,5 +1,5 @@
-package dragonBones.cache
-{
+package dragonBones.cache {
+
 	import dragonBones.core.IAnimationState;
 	import dragonBones.core.ICacheUser;
 	import dragonBones.core.ICacheableArmature;

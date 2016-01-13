@@ -1,7 +1,8 @@
-package dragonBones.objects
-{
-	import flash.geom.Matrix;
+package dragonBones.objects {
+
 	import dragonBones.utils.TransformUtil;
+
+	import flash.geom.Matrix;
 
 	/**
 	* Copyright 2012-2013. DragonBones. All Rights Reserved.

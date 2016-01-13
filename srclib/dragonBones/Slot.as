@@ -1,19 +1,18 @@
-﻿package dragonBones
-{
-	import flash.errors.IllegalOperationError;
-	import flash.geom.ColorTransform;
-	import flash.geom.Matrix;
-	
+package dragonBones {
+
 	import dragonBones.animation.AnimationState;
 	import dragonBones.animation.SlotTimelineState;
 	import dragonBones.core.DBObject;
 	import dragonBones.core.dragonBones_internal;
-	import dragonBones.objects.DBTransform;
 	import dragonBones.objects.DisplayData;
 	import dragonBones.objects.Frame;
 	import dragonBones.objects.SlotData;
 	import dragonBones.objects.SlotFrame;
 	import dragonBones.utils.TransformUtil;
+
+	import flash.errors.IllegalOperationError;
+	import flash.geom.ColorTransform;
+	import flash.geom.Matrix;
 
 	//import dragonBones.objects.FrameCached;
 	//import dragonBones.objects.TimelineCached;

@@ -1,10 +1,8 @@
-﻿package dragonBones.animation
-{
+package dragonBones.animation {
+
 	import dragonBones.Armature;
 	import dragonBones.Slot;
 	import dragonBones.core.dragonBones_internal;
-	import dragonBones.fast.animation.FastBoneTimelineState;
-	import dragonBones.fast.animation.FastSlotTimelineState;
 	import dragonBones.objects.AnimationData;
 	
 	use namespace dragonBones_internal;

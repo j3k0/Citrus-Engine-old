@@ -1,5 +1,5 @@
-package dragonBones.utils
-{
+package dragonBones.utils {
+
 	import flash.geom.ColorTransform;
 
 	public class ColorTransformUtil

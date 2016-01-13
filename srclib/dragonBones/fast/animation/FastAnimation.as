@@ -1,5 +1,5 @@
-package dragonBones.fast.animation
-{
+package dragonBones.fast.animation {
+
 	import dragonBones.cache.AnimationCacheManager;
 	import dragonBones.core.IArmature;
 	import dragonBones.core.dragonBones_internal;

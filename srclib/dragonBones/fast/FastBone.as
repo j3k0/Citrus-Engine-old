@@ -1,5 +1,5 @@
-package dragonBones.fast
-{
+package dragonBones.fast {
+
 	import dragonBones.core.dragonBones_internal;
 	import dragonBones.events.FrameEvent;
 	import dragonBones.fast.animation.FastAnimationState;
