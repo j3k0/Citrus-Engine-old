@@ -29,6 +29,7 @@ package citrus.core.starling {
 		protected var _baseHeight:int = -1;
 		protected var _viewportMode:String = ViewportMode.LEGACY;
 		protected var _viewport:Rectangle;
+		protected var _suspendRenderingOnDeactivate:Boolean = false;
 		
 		private var _viewportBaseRatioWidth:Number = 1;
 		private var _viewportBaseRatioHeight:Number = 1;
@@ -322,7 +323,7 @@ package citrus.core.starling {
 		override protected function handleStageDeactivated(e:flash.events.Event):void {
 
 			if (_playing && _starling)
-				_starling.stop();
+				_starling.stop(_suspendRenderingOnDeactivate);
 
 			super.handleStageDeactivated(e);
 		}
