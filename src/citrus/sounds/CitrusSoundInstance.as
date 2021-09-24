@@ -222,11 +222,18 @@ package citrus.sounds
 			if (!_isActive)
 				return;
 			
-			_last_position = _soundChannel.position;
+			if (_soundChannel) {
+				_last_position = _soundChannel.position;
+
+				_soundChannel.stop();
+			}
+			else {
+				_last_position = 0;
+			}
 			
-			_soundChannel.stop();
-			
-			soundChannel = _parentsound.sound.play(0, int.MAX_VALUE);
+			if (_parentsound) {
+				soundChannel = _parentsound.sound.play(0, int.MAX_VALUE);
+			}
 			
 			_isPlaying = false;
 			_isPaused = true;
@@ -241,8 +248,12 @@ package citrus.sounds
 			if (!_isActive)
 				return;
 			
-			_soundChannel.stop();
-			soundChannel = _parentsound.sound.play(_last_position, 0);
+			if (_soundChannel) {
+				_soundChannel.stop();
+			}
+			if (_parentsound) {
+				soundChannel = _parentsound.sound.play(_last_position, 0);
+			}
 			
 			_isPlaying = true;
 			_isPaused = false;

@@ -175,11 +175,11 @@ package citrus.sounds
 				_soundTransform.pan =  _panning;
 			}
 			
-			if (applyToInstances)
+			if (applyToInstances && soundInstances)
 			{
 				var soundInstance:CitrusSoundInstance;
 				for each (soundInstance in soundInstances)
-					soundInstance.resetSoundTransform(false);
+					if (soundInstance) soundInstance.resetSoundTransform(false);
 			}
 			
 			return _soundTransform;
