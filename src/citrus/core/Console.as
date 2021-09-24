@@ -314,12 +314,16 @@ package citrus.core {
 					{
 						if (e.errorID == 1063) //Argument count mismatch on [some function]. Expected [x], got [y]
 						{
-							trace(e.message);
+							trace("[CONSOLE]", e.message);
+							trace("[CONSOLE]", e.getStackTrace());
 							var expected:Number = Number(e.message.slice(e.message.indexOf("Expected ") + 9, e.message.lastIndexOf(",")));
 							var lessArgs:Array = args.slice(0, expected);
 							func.apply(this, lessArgs);
 						}
 					}
+				}
+				else {
+					trace("[CONSOLE]", "command not found:", command);
 				}
 			}
 			else if (event.keyCode == _prevHistoryKey)
