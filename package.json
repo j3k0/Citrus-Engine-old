@@ -1,0 +1,13 @@
+{
+  "id": "citrusengine.old-fovea-source",
+  "name": "The Citrus Engine (source)",
+  "url": "https://github.com/j3k0/Citrus-Engine-old",
+  "docUrl": "https://wiki.starling-framework.org/citrus/start",
+  "description": "Modern AS3 game framework",
+  "type": "src",
+  "version": "3.1.9",
+  "sourceUrl": "https://github.com/j3k0/Citrus-Engine-old/releases/download/v3.1.9/citrusengine.old-fovea-source_3.1.9.airpackage",
+  "dependencies": [],
+  "parameters": [],
+  "tags": ["game", "framework", "starling", "citrus"]
+}
