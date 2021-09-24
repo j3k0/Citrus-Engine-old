@@ -244,7 +244,7 @@ package citrus.core.starling {
 		override protected function handleEnterFrame(e:flash.events.Event):void {
 
 			if (_starling && _starling.isStarted && _starling.context) {
-
+/*
 				if (_newState) {
 
 					if (_state) {
@@ -284,7 +284,7 @@ package citrus.core.starling {
 					starling.stage.addChildAt(_futureState as StarlingState, _stateDisplayIndex);
 					_futureState.initialize();
 				}
-
+*/
 			}
 
 			super.handleEnterFrame(e);
