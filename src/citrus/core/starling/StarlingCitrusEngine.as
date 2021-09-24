@@ -56,14 +56,14 @@ package citrus.core.starling {
 			
 			_juggler.purge();
 
-			if (_state) {
+			/* if (_state) {
 
 				if (_starling) {
 					_starling.stage.removeChild(_state as StarlingState);
 					_starling.root.dispose();
 					_starling.dispose();
 				}
-			}
+			} */
 		}
 		
 		/**
