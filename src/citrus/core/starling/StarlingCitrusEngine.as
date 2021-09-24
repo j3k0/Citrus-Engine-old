@@ -86,8 +86,8 @@ package citrus.core.starling {
 		 */
 		public function setUpStarling(debugMode:Boolean = false, antiAliasing:uint = 1, viewPort:Rectangle = null, stage3D:Stage3D = null):void {
 
-			if (Mobile.isAndroid())
-				Starling.handleLostContext = true;
+			// if (Mobile.isAndroid())
+			// Starling.handleLostContext = true;
 				
 			if (viewPort)
 				_viewport = viewPort;
