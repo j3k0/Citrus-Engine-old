@@ -1,10 +1,8 @@
-V3.1.10, Work In Progress
--------------------------
-- Starling updated on 1.5
-- Nape updated on 2.0.16
-- Feathers updated 1.3.0
-- Set up SoundMixer.audioPlaybackMode to "ambient" (on iOS if the physical button is off, mute the sound).
-- setUpStarling method has a stage3D argument, useful for shared context.
+V3.1.10, 16 09 2026
+-------------------
+- Guarded CitrusSoundInstance against use-after-destroy: pause()/resume()/onComplete()/resetSoundTransform() early-return when the instance was destroyed or its parent sound/sound object is null (Error #1009 when backgrounding mid-destroy; Fovea FOV-1298 / Sentry TRIOMINOS-1FF).
+- Guarded the 2021 null-object fixes (ff56ae3): pause()/resume() guard _soundChannel; CitrusSound.resetSoundTransform() guards null soundInstances (Fovea FOV-917/918 family).
+- Made CitrusSoundInstance.destroy() idempotent (a second call no longer dereferences the nulled _parentsound).
 
 V3.1.9, 03 05 2014
 ------------------
