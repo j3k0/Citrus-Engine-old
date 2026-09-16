@@ -293,6 +293,9 @@ package citrus.sounds
 		
 		public function destroy(forced:Boolean = false):void
 		{
+			if (_destroyed)
+				return;
+
 			_parentsound.removeDispatchChild(this);
 			
 			_parentsound = null;
