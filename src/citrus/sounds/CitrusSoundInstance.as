@@ -219,7 +219,7 @@ package citrus.sounds
 		
 		public function pause():void
 		{
-			if (!_isActive)
+			if (_destroyed || !_isActive)
 				return;
 			
 			if (_soundChannel) {
@@ -245,7 +245,7 @@ package citrus.sounds
 		
 		public function resume():void
 		{
-			if (!_isActive)
+			if (_destroyed || !_isActive)
 				return;
 			
 			if (_soundChannel) {
@@ -308,6 +308,8 @@ package citrus.sounds
 		
 		protected function onComplete(e:Event):void
 		{
+			if (_destroyed || !_parentsound)
+				return;
 			
 			if (_isPaused)
 			{
@@ -479,6 +481,9 @@ package citrus.sounds
 		
 		internal function resetSoundTransform(parentSoundTransformReset:Boolean = true):SoundTransform
 		{
+			if (_destroyed || !_parentsound)
+				return _soundTransform;
+			
 			_soundTransform = parentSoundTransformReset ? _parentsound.resetSoundTransform() : _parentsound.soundTransform;
 			_soundTransform.volume *= _volume;
 			_soundTransform.pan = _panning;
