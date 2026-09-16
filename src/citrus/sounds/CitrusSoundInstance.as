@@ -219,7 +219,7 @@ package citrus.sounds
 		
 		public function pause():void
 		{
-			if (_destroyed || !_isActive)
+			if (_destroyed || !_isActive || !_parentsound || !_parentsound.sound)
 				return;
 			
 			if (_soundChannel) {
@@ -231,9 +231,7 @@ package citrus.sounds
 				_last_position = 0;
 			}
 			
-			if (_parentsound) {
-				soundChannel = _parentsound.sound.play(0, int.MAX_VALUE);
-			}
+			soundChannel = _parentsound.sound.play(0, int.MAX_VALUE);
 			
 			_isPlaying = false;
 			_isPaused = true;
@@ -245,15 +243,13 @@ package citrus.sounds
 		
 		public function resume():void
 		{
-			if (_destroyed || !_isActive)
+			if (_destroyed || !_isActive || !_parentsound || !_parentsound.sound)
 				return;
 			
 			if (_soundChannel) {
 				_soundChannel.stop();
 			}
-			if (_parentsound) {
-				soundChannel = _parentsound.sound.play(_last_position, 0);
-			}
+			soundChannel = _parentsound.sound.play(_last_position, 0);
 			
 			_isPlaying = true;
 			_isPaused = false;
@@ -311,7 +307,7 @@ package citrus.sounds
 		
 		protected function onComplete(e:Event):void
 		{
-			if (_destroyed || !_parentsound)
+			if (_destroyed || !_parentsound || !_parentsound.sound)
 				return;
 			
 			if (_isPaused)
